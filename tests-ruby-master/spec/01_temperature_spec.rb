@@ -3,7 +3,7 @@ require_relative '../lib/01_temperature'
 describe "temperature conversion functions" do
 
   describe "#ftoc" do
-
+#Ils veulent juste tester, ici, une fois la même fonction pour les 4 températures. On s'en fou. 
     it "converts freezing temperature" do
       expect(ftoc(32)).to eq(0)
     end
